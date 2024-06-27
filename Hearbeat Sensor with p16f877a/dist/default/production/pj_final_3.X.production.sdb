@@ -1,0 +1,170 @@
+[p LITE_MODE AUTOSTATIC PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 6 ]
+"492 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"37 C:\Users\User\MPLABXProjects\pj final 3.X\pj final 3.c
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+"57
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+"77
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+"93
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+"98
+[v _LCD_SetCursor LCD_SetCursor `(v  1 e 1 0 ]
+"108
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+"114
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+"123
+[v _main main `(v  1 e 1 0 ]
+"1116 C:\Program Files (x86)\Microchip\xc8\v1.41\include\pic16f877a.h
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1122
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+"1457
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"2167
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2173
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2331
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2447
+[v _GO_nDONE GO_nDONE `VEb  1 e 0 @250 ]
+"2565
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"2567
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"2569
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"2571
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"2573
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"2575
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"354 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+[v _dpowers dpowers `DCC[5]ui  1 s 10 dpowers ]
+"123 C:\Users\User\MPLABXProjects\pj final 3.X\pj final 3.c
+[v _main main `(v  1 e 1 0 ]
+{
+"136
+[v main@bpm bpm `ui  1 a 2 34 ]
+"129
+[v main@heartbeat_str heartbeat_str `[16]uc  1 a 16 16 ]
+"128
+[v main@heartbeat_value heartbeat_value `ui  1 a 2 32 ]
+"150
+} 0
+"492 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"528
+[v sprintf@val val `ui  1 a 2 8 ]
+"499
+[v sprintf@c c `c  1 a 1 12 ]
+"506
+[v sprintf@prec prec `c  1 a 1 10 ]
+"494
+[v sprintf@ap ap `[1]*.4v  1 a 1 7 ]
+"508
+[v sprintf@flag flag `uc  1 a 1 6 ]
+"492
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCCuc  1 p 1 0 ]
+"533
+[v sprintf@sp sp `*.4uc  1 a 1 11 ]
+"1541
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"6
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"26
+} 0
+"6 C:\Program Files (x86)\Microchip\xc8\v1.41\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"6
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"31
+} 0
+"93 C:\Users\User\MPLABXProjects\pj final 3.X\pj final 3.c
+[v _LCD_String LCD_String `(v  1 e 1 0 ]
+{
+[v LCD_String@str str `*.26DCCuc  1 p 2 2 ]
+"96
+} 0
+"57
+[v _LCD_Char LCD_Char `(v  1 e 1 0 ]
+{
+[v LCD_Char@data data `uc  1 a 1 wreg ]
+[v LCD_Char@data data `uc  1 a 1 wreg ]
+[v LCD_Char@data data `uc  1 a 1 1 ]
+"75
+} 0
+"98
+[v _LCD_SetCursor LCD_SetCursor `(v  1 e 1 0 ]
+{
+[v LCD_SetCursor@row row `uc  1 a 1 wreg ]
+"99
+[v LCD_SetCursor@address address `uc  1 a 1 5 ]
+"98
+[v LCD_SetCursor@row row `uc  1 a 1 wreg ]
+[v LCD_SetCursor@col col `uc  1 p 1 2 ]
+"100
+[v LCD_SetCursor@row row `uc  1 a 1 4 ]
+"105
+} 0
+"77
+[v _LCD_Init LCD_Init `(v  1 e 1 0 ]
+{
+"91
+} 0
+"37
+[v _LCD_Command LCD_Command `(v  1 e 1 0 ]
+{
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 wreg ]
+[v LCD_Command@cmd cmd `uc  1 a 1 1 ]
+"55
+} 0
+"114
+[v _ADC_Read ADC_Read `(ui  1 e 2 0 ]
+{
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 wreg ]
+[v ADC_Read@channel channel `uc  1 a 1 4 ]
+"121
+} 0
+"108
+[v _ADC_Init ADC_Init `(v  1 e 1 0 ]
+{
+"112
+} 0
